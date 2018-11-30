@@ -13,6 +13,6 @@ module.exports = {
 
   // Settings for typography.js
   headerFontFamily: 'Lato',
-  bodyFontFamily: 'Open Sans',
+  bodyFontFamily: 'Montserrat',
   baseFontSize: '18px',
 };
