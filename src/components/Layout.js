@@ -4,7 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 import styled, { ThemeProvider, createGlobalStyle } from 'styled-components';
-import { SEO, Button } from 'components';
+import { SEO, NavBarButton } from 'components';
 import theme from '../../config/Theme';
 import { media } from '../utils/media';
 
@@ -84,20 +84,20 @@ const Layout = ({ children }) => (
           <GlobalStyle />
           {children}
           <Footer>
-            <Button>
+            <NavBarButton>
               <a href="/"> Essays </a>
-            </Button> &nbsp;
-            <Button>
-              <a href="/recommends/"> Recommendations </a>
-            </Button> &nbsp;
-            <Button>
+            </NavBarButton>{' '}
+            &nbsp;
+            <NavBarButton>
               <a href="/projects/"> Projects </a>
-            </Button> &nbsp;
-            <Button>
+            </NavBarButton>{' '}
+            &nbsp;
+            <NavBarButton>
               <a href="/contact/"> Contact </a>
-            </Button> &nbsp;
+            </NavBarButton>{' '}
+            &nbsp;
             <br /> <br />
-            &copy; 2018 - Arjun Rao <br />
+            &nbsp; &nbsp; &copy; 2018 - Arjun Rao <br />
           </Footer>
         </React.Fragment>
       </ThemeProvider>

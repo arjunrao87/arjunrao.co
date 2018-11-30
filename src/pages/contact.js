@@ -6,8 +6,6 @@ import styled from 'styled-components';
 import { Layout, Wrapper, Header, Button } from 'components';
 import { media } from '../utils/media';
 
-import config from '../../config/SiteConfig';
-
 const Content = styled.div`
   grid-column: 2;
   box-shadow: 0 4px 120px rgba(0, 0, 0, 0.1);
@@ -45,8 +43,8 @@ const Content = styled.div`
 const Contact = () => (
   <Layout>
     <Wrapper>
-      <Helmet title={`Contact | ${config.siteTitle}`} />
-      <Header/>
+      <Helmet title="Contact" />
+      <Header />
       <Content>
         <h1>Contact</h1>
         <form name="contact-form" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="/success">
