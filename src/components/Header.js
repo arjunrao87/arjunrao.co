@@ -6,21 +6,13 @@ const Wrapper = styled.header`
   grid-column: 1 / -1;
   margin-left: -1rem;
   margin-right: -1rem;
-  padding: 2rem 2rem 5rem 2rem;
-  box-shadow: inset 0px -10px 30px 0px rgba(0, 0, 0, 0.1);
+  padding: 2rem 2rem 6rem 2rem;
 `;
 
 const Content = styled.div`
   max-width: 1000px;
   margin: 0 auto;
-
-  a {
-    color: white;
-    &:hover {
-      opacity: 0.85;
-      color: white;
-    }
-  }
+  text-align: right;
 `;
 
 const Header = ({ children }) => (

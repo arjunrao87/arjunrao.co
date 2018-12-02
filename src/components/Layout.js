@@ -2,9 +2,9 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { StaticQuery, graphql } from 'gatsby';
+import { StaticQuery, graphql, Link } from 'gatsby';
 import styled, { ThemeProvider, createGlobalStyle } from 'styled-components';
-import { SEO, NavBarButton } from 'components';
+import { SEO, Header } from 'components';
 import theme from '../../config/Theme';
 import { media } from '../utils/media';
 
@@ -67,7 +67,6 @@ const Footer = styled.footer`
     font-size: 0.75rem;
   }
 `;
-
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -82,22 +81,48 @@ const Layout = ({ children }) => (
         <React.Fragment>
           <SEO />
           <GlobalStyle />
+          <Header>
+            <div>
+              &nbsp;{' '}
+              <Link title="Home" to="/">
+                🏡
+              </Link>
+              &nbsp; |{' '}
+              <Link title="Projects" to="/projects/">
+                💻
+              </Link>
+              &nbsp; |{' '}
+              <a
+                title="Travel"
+                href="https://www.notion.so/560c895eebde43f286edf8c7f7c92b49?v=ae88476f857f43bfbc2c9af84ed4e72d/"
+              >
+                🗺
+              </a>
+            </div>
+            &nbsp;{' '}
+            <a title="Github" href="https://github.com/arjunrao87/">
+              Github
+            </a>
+            &nbsp;|{' '}
+            <a title="Twitter" href="https://twitter.com/raoarjun/">
+              Twitter
+            </a>
+            &nbsp; |{' '}
+            <a title="LinkedIn" href="https://linkedin.com/in/arjunrao87/">
+              LinkedIn
+            </a>
+            &nbsp; |{' '}
+            <a title="Medium" href="https://medium.com/@arjunrao87/">
+              Medium
+            </a>
+            &nbsp; |{' '}
+            <a title="Instagram" href="https://instagram.com/raoarjun/">
+              Instagram
+            </a>
+          </Header>
           {children}
           <Footer>
-            <NavBarButton>
-              <a href="/"> Essays </a>
-            </NavBarButton>{' '}
-            &nbsp;
-            <NavBarButton>
-              <a href="/projects/"> Projects </a>
-            </NavBarButton>{' '}
-            &nbsp;
-            <NavBarButton>
-              <a href="/contact/"> Contact </a>
-            </NavBarButton>{' '}
-            &nbsp;
-            <br /> <br />
-            &nbsp; &nbsp; &copy; 2018 - Arjun Rao <br />
+            &copy; 2018 - Arjun Rao <br />
           </Footer>
         </React.Fragment>
       </ThemeProvider>
