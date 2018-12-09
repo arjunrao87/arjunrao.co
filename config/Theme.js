@@ -1,8 +1,5 @@
 const colors = {
   primary: '#d02e77', // Color for buttons or links
-  navbar: {
-    button: '#aaebf9',
-  },
   bg: 'white', // Background color
   grey: {
     dark: 'rgba(0, 0, 0, 0.9)',
