@@ -2,7 +2,7 @@
 date: "2015-08-11"
 year: "2015"
 title: "The Big Picture"
-category: "Business"
+category: "Strategy"
 ---
 I generally consider myself to be a practitioner of the Stoicism school of thought. There have, however, been instances when I have been accused of exaggerating my feelings both in the case of youthful exuberance, as well as impending doom.
 

@@ -7,6 +7,16 @@ module.exports = {
   siteMetadata: {
     siteUrl: config.siteUrl + pathPrefix,
     siteTitle: config.siteTitle,
+    menuLinks:[
+      {
+         name:'🏠',
+         link:'/'
+      },
+      {
+         name:'📚',
+         link:'/about'
+      }
+    ]
   },
   plugins: [
     'gatsby-plugin-react-helmet',

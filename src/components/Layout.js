@@ -18,8 +18,9 @@ const GlobalStyle = createGlobalStyle`
     color: ${theme.default};
     font-display: swap;
     @media ${media.phone} {
-      font-size: 20px;
+      font-size: 18px;
     }
+    overflow-x: hidden;
   }
   a {
     color: ${theme.colors.grey.dark};
@@ -69,11 +70,16 @@ const Footer = styled.footer`
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
-      query LayoutQuery {
-        site {
-          buildTime(formatString: "MM.DD.YYYY")
+    query SiteQuery {
+      site {
+        siteMetadata {
+          menuLinks {
+            name
+            link
+          }
         }
       }
+    }
     `}
     render={data => (
       <ThemeProvider theme={theme}>

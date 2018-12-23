@@ -15,7 +15,7 @@ const Content = styled.div`
   text-align: right;
 `;
 
-const Header = ({ children }) => (
+const Header = ({children }) => (
   <Wrapper>
     <Content>{children}</Content>
   </Wrapper>
