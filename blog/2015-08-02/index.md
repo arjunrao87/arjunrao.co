@@ -2,7 +2,7 @@
 date: "2015-08-02"
 year: "2015"
 title: "State of the Individual"
-category: "General"
+category: "Personal Growth"
 ---
 As I sit in the the cool shade of the backyard at Saturday's Surf Cafe, SoHo, NYC, on a sunny Sunday, I can't help but look back at the steps that led me to this place ( not literally but figuratively ) and where it will take me from here henceforth.
 

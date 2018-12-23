@@ -2,7 +2,7 @@
 date: "2017-08-27"
 year: "2017"
 title: "Knowing who your bail friends are and why it is important"
-category: "General"
+category: "Relationships"
 ---
 
 A real friend is one who walks in when the rest of the world walks out.

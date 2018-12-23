@@ -2,7 +2,7 @@
 date: "2017-02-09"
 year: "2017"
 title: "Website Redesign 2017"
-category: "Product"
+category: "Technology"
 ---
 
 I want to document the process I went through to revamp my personal website. I'll walk through some of the design decisions as well as some of the mistakes ( at times horrendous ) that I made.

@@ -2,7 +2,7 @@
 date: "2017-08-27"
 year: "2017"
 title: "The One"
-category: "Product"
+category: "Technology"
 ---
 
 “Learning to choose is hard. Learning to choose well is harder. And learning to choose well in a world of unlimited possibilities is harder still, perhaps too hard.”

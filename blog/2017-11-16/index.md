@@ -2,7 +2,7 @@
 date: "2017-11-16"
 year: "2017"
 title: "Why you need to sell yourself"
-category: "General"
+category: "Personal Growth"
 ---
 
 “Your most important sale in life is to sell yourself to yourself.” — Maxwell Maltz

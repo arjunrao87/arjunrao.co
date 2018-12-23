@@ -18,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
     color: ${theme.default};
     font-display: swap;
     @media ${media.phone} {
-      font-size: 18px;
+      font-size: 24px;
     }
   }
   a {

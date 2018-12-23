@@ -2,7 +2,7 @@
 date: "2017-04-29"
 year: "2017"
 title: "Coming to America - An Immigrant's Perspective"
-category: "General"
+category: "Travel"
 ---
 There is a lot of hubbub around immigration into the United States at the moment. With a slew of immigration orders and laws, fear, doubt and uncertainty have been struck into the hearts of all immigrants. Being an immigrant, let me tell you a story of how this has affected me personally and my fellow immigrants around me.
 

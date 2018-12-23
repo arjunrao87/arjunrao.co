@@ -2,7 +2,7 @@
 date: "2015-03-19"
 year: "2015"
 title: "Thought cloud"
-category: "General"
+category: "Philosophy"
 ---
 
 It isn't easy choosing what issues I want to talk about in depth.  The conflict that arises is between the sheer volume of thoughts I have v/s what it is I truly believe in. I think I will dip into the pool of topics I have in mind as of now and just pick one of them randomly. I feel fairly strongly about each of these topics so it might not be a bad start.

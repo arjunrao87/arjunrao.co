@@ -2,7 +2,7 @@
 date: "2016-01-25"
 year: "2016"
 title: "The Quintessence of Travel"
-category: "General"
+category: "Travel"
 ---
 “The traveler sees what he sees.  The tourist sees what he has come to see.”
 -G.K. Chesterton

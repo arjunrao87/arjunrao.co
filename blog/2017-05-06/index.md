@@ -2,7 +2,7 @@
 date: "2017-05-06"
 year: "2017"
 title: "How to combat your psyche"
-category: "General"
+category: "Personal Growth"
 ---
 
 Something most people don’t talk about are the low points they feel in life. It’s a taboo topic to voice those thoughts out aloud. Why let yourself be shown to be vulnerable, emotional or physical, in a Darwinian world? It was just never meant to be that way, emotionally or physically. Juxtapose this with today’s world, where everything is made to look fine and dandy and it is getting increasingly difficult to express how unhappy or discontent someone is feeling. Applications like Facebook and Instagram, which have fast become the way of life, only seem to propagate this myth of a Utopia where the person posting content seems to be having the time of their life. Unfortunately, the way most people seem to interpret such content is by extrapolating that time slice into a lifetime of events. Just because someone has taken a trip to, say the beautiful Australian outback, does not mean that that is their general way of life. I sure as hope it is, but 9/10 times it is not, and that is just the truth. We humans, can sometimes go beyond our way to self-deprecate or glance at the negatives far more than the positives.

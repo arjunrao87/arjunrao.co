@@ -2,7 +2,7 @@
 date: "2017-07-24"
 year: "2017"
 title: "Life and the Pursuit of Happiness"
-category: "General"
+category: "Personal Growth"
 ---
 
 A creative man is motivated by the desire to achieve, not by the desire to beat others. — Ayn Rand

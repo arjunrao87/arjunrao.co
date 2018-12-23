@@ -2,7 +2,7 @@
 date: "2017-06-06"
 year: "2017"
 title: "Why Are Millennials Creating All This Content?"
-category: "General"
+category: "Technology"
 ---
 
 “Make it simple. Make it memorable. Make it inviting to look at. Make it fun to read.” — Leo Burnett

@@ -2,7 +2,7 @@
 date: "2017-04-19"
 year: "2017"
 title: "The Network Effect"
-category: "General"
+category: "Personal Growth"
 ---
 
 Achieving success is not a formula. Being successful involves doing things, really difficult things. It is easy to do nothing and it is the basic premise of inertia; Newton’s First Law of Motion states that a body at rest will remain at rest unless an outside force acts on it. Human thought is something that is is a most vibrant force when in motion, but to get it into that state takes an action or an idea of herculean proportions.

@@ -2,7 +2,7 @@
 date: "2015-03-20"
 year: "2015"
 title: "Change in Direction"
-category: "General"
+category: "Philosophy"
 ---
 This site used to be called "Mind your code" which was meant to present a very narrow cross section of the person I am. It was then called "Strength and Honor" for two main reasons:
 1. Strength : To curate and document my own strengths and failings for my future reference in a spectrum of topics be it science, technology, politics, humanity or philosophy. Life and beyond as some might say.
