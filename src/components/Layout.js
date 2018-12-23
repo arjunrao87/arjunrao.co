@@ -18,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
     color: ${theme.default};
     font-display: swap;
     @media ${media.phone} {
-      font-size: 24px;
+      font-size: 20px;
     }
   }
   a {
@@ -36,7 +36,6 @@ const GlobalStyle = createGlobalStyle`
     font-style: italic;
     position: relative;
   }
-
   blockquote:before {
     content: "";
     position: absolute;
