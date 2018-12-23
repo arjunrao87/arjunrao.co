@@ -1,5 +1,6 @@
 ---
 date: "2016-03-21"
+year: "2016"
 title: "Tales of the Aurora"
 category: "General"
 ---
@@ -26,8 +27,8 @@ The other factor to consider when planning an Aurora trip is, how long you want 
 
 The final decision maker in deciding success of your Aurora quest is how much effort you are willing to put into it. The Aurora is a most exacting phenomenon. Exacting in that, it doesn’t make anything easy for you. Just as it is impossible(sic) to say whether an aurora will occur in the future, its not easy predicting what time of the night the aurora will occur. 1am to 4am is generally the time when the Aurora wakes up. That time is, however, when we are firmly in our beds after a long activity-filled day. There are three ways to get around this.
 
-- The first is to suck it up and say, I AM HERE FOR THE AURORA AND BY GAR I WILL SEE IT. This declaration of intent involves you biting the bullet and staying up the whole night staring at the skies, drinking beers and talking about life and beyond while waiting for Nature's display to get its act together. 
-- The second option is to plan night drives with growlers of coffee at hand, because if nothing else, at least the driver will be awake( fingers crossed ) and can be the scout for the auroral advances. 
+- The first is to suck it up and say, I AM HERE FOR THE AURORA AND BY GAR I WILL SEE IT. This declaration of intent involves you biting the bullet and staying up the whole night staring at the skies, drinking beers and talking about life and beyond while waiting for Nature's display to get its act together.
+- The second option is to plan night drives with growlers of coffee at hand, because if nothing else, at least the driver will be awake( fingers crossed ) and can be the scout for the auroral advances.
 - The third option is to snooze and place your faith in technology. Most auroral tracking systems have email / twitter notifications of when auroral activity is about to peak.
 
 This is the lazy man’s way of getting to see the aurora. For better or for worse, this is the route we took. Since we had early mornings and long days that involved physical activity and criss-crossing Canadian provinces by car, we did not have the luxury of staying up and waiting for the aurora. We would check on Kp values before sleeping and see if there was any indication of there being a chance of seeing the aurora. Unfortunately despite staying for 7 days in the Canadian rockies, the Kp never rose above 1.5~2, which was incredibly disappointing, but in lieu of the mindset we had before we undertook this expedition, of going for the destination and not for the northern lights,  it was something that we were wholly prepared for.

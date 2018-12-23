@@ -1,5 +1,6 @@
 ---
 date: "2017-04-19"
+year: "2017"
 title: "The Network Effect"
 category: "General"
 ---

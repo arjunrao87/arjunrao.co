@@ -1,5 +1,6 @@
 ---
 date: "2016-01-25"
+year: "2016"
 title: "The Quintessence of Travel"
 category: "General"
 ---
@@ -21,7 +22,7 @@ I wanted to make a few pointers about the list given below. I currently own a S
 # Photos
 ### Scenario  -  Scenic / Picturesque / Still 
 - Device : Sony A6000
-- Media  : 500px, Instagram 
+- Media  : 500px, Instagram
 
 ### Scenario - On-the-go / Spur-of-the-moment aka No time to setup
 - Device : iPhone / Android
@@ -42,7 +43,7 @@ I wanted to make a few pointers about the list given below. I currently own a S
 - Media : Instagram
 
 ### Scenario - Broadcast location and activity (Audio required) 
-- App : Periscope 
+- App : Periscope
 - Media : Periscope
 
 ## Sony A6000

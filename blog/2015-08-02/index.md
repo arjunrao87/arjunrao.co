@@ -1,5 +1,6 @@
 ---
 date: "2015-08-02"
+year: "2015"
 title: "State of the Individual"
 category: "General"
 ---

@@ -6,7 +6,6 @@ import styled from 'styled-components';
 import kebabCase from 'lodash/kebabCase';
 import { Layout, Wrapper, Header, SectionTitle } from 'components';
 import { media } from '../utils/media';
-
 import config from '../../config/SiteConfig';
 
 const Content = styled.div`
@@ -33,7 +32,7 @@ const Title = styled.h3`
 
 const Category = ({
   data: {
-    allMarkdownRemark: { group },
+    allMarkdownRemark: { categories, years },
   },
 }) => (
   <Layout>
@@ -44,10 +43,17 @@ const Category = ({
       </Header>
       <Content>
         <SectionTitle>Categories</SectionTitle>
-        {group.map(category => (
+        {categories.map(category => (
           <Title key={category.fieldValue}>
             <Link to={`/categories/${kebabCase(category.fieldValue)}`}>{category.fieldValue}</Link> (
             {category.totalCount})
+          </Title>
+        ))}
+        <SectionTitle>Years</SectionTitle>
+        {years.map(year => (
+          <Title key={year.fieldValue}>
+            <Link to={`/categories/years/${year.fieldValue}`}>{year.fieldValue}</Link> (
+            {year.totalCount})
           </Title>
         ))}
       </Content>
@@ -68,9 +74,13 @@ Category.propTypes = {
 export const postQuery = graphql`
   query CategoriesPage {
     allMarkdownRemark {
-      group(field: frontmatter___category) {
+      categories: group(field: frontmatter___category) {
         fieldValue
         totalCount
+      }
+      years: group(field: frontmatter___year) {
+        totalCount
+        fieldValue
       }
     }
   }

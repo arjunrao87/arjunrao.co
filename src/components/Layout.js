@@ -18,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
     color: ${theme.default};
     font-display: swap;
     @media ${media.phone} {
-      font-size: 14px;
+      font-size: 18px;
     }
   }
   a {
@@ -89,22 +89,15 @@ const Layout = ({ children }) => (
               </Link>
               &nbsp; |{' '}
               <Link title="Projects" to="/projects/">
-                💻
+                📚
               </Link>
-              &nbsp; |{' '}
-              <a
-                title="Travel"
-                href="https://www.notion.so/560c895eebde43f286edf8c7f7c92b49?v=ae88476f857f43bfbc2c9af84ed4e72d/"
-              >
-                🗺
-              </a>
             </div>
             &nbsp;{' '}
             <a title="Github" href="https://github.com/arjunrao87/">
               Github
             </a>
             &nbsp;|{' '}
-            <a title="Twitter" href="https://twitter.com/raoarjun/">
+            <a title="Twitter" href="https://mobile.twitter.com/raoarjun/">
               Twitter
             </a>
             &nbsp; |{' '}

@@ -1,5 +1,6 @@
 ---
 date: "2017-07-24"
+year: "2017"
 title: "Life and the Pursuit of Happiness"
 category: "General"
 ---

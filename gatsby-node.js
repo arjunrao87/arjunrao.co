@@ -27,6 +27,7 @@ exports.createPages = ({ graphql, actions }) => {
   return new Promise((resolve, reject) => {
     const postPage = path.resolve('src/templates/post.js');
     const categoryPage = path.resolve('src/templates/category.js');
+    const yearPage = path.resolve('src/templates/year.js');
     resolve(
       graphql(`
         {
@@ -39,6 +40,7 @@ exports.createPages = ({ graphql, actions }) => {
                 frontmatter {
                   title
                   category
+                  year
                 }
               }
             }
@@ -68,14 +70,18 @@ exports.createPages = ({ graphql, actions }) => {
         });
 
         let categories = [];
-
+        let years = [];
         _.each(posts, edge => {
           if (_.get(edge, 'node.frontmatter.category')) {
             categories = categories.concat(edge.node.frontmatter.category);
           }
+          if (_.get(edge, 'node.frontmatter.year')) {
+            years = years.concat(edge.node.frontmatter.year);
+          }
         });
 
         categories = _.uniq(categories);
+        years = _.uniq(years);
 
         categories.forEach(category => {
           createPage({
@@ -83,6 +89,15 @@ exports.createPages = ({ graphql, actions }) => {
             component: categoryPage,
             context: {
               category,
+            },
+          });
+        });
+        years.forEach(year => {
+          createPage({
+            path: `/categories/years/${year}`,
+            component: yearPage,
+            context: {
+              year,
             },
           });
         });

@@ -1,5 +1,6 @@
 ---
 date: "2015-03-19"
+year: "2015"
 title: "Thought cloud"
 category: "General"
 ---

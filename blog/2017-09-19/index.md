@@ -1,5 +1,6 @@
 ---
 date: "2017-08-27"
+year: "2017"
 title: "Knowing who your bail friends are and why it is important"
 category: "General"
 ---

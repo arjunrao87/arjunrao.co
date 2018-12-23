@@ -1,5 +1,6 @@
 ---
 date: "2017-05-06"
+year: "2017"
 title: "How to combat your psyche"
 category: "General"
 ---

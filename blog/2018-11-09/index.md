@@ -1,5 +1,6 @@
 ---
 date: "2018-11-09"
+year: "2018"
 title: "Six things that Sober October taught me"
 category: "General"
 ---

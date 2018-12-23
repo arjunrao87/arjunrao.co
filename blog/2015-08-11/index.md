@@ -1,5 +1,6 @@
 ---
 date: "2015-08-11"
+year: "2015"
 title: "The Big Picture"
 category: "General"
 ---
