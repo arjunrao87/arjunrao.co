@@ -5,7 +5,8 @@ module.exports = {
   favicon: 'src/favicon.svg',
   siteLogo: '/social/logo.png', // Image for schemaORGJSONLD
   siteTitle: 'Arjun Rao',
-  siteTitleAlt: 'Arjun Rao - Personal Website',
+  siteTitleAlt: 'Arjun Rao',
+  siteDescription: 'Arjun Rao - Personal Website', // Your site description
 
   // Manifest and Progress color
   // See: https://developers.google.com/web/fundamentals/web-app-manifest/
