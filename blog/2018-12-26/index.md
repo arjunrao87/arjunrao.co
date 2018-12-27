@@ -21,7 +21,7 @@ After a bunch of turbulence and some flying around, the plane landed back from w
 
 > **When your customers are filled with doubt, you must have the confidence and the wherewithal to  assuage their doubts and fears.**
 
-This is not a point in favor of mollycodling your customers. It is about maintaining an open and clear dialogue to ensure that their concerns are being met with an adequate response. 
+This is not a point in favor of mollycoddling your customers. It is about maintaining an open and clear dialogue to ensure that their concerns are being met with an adequate response. 
 
 We stood in front of the gate for about 35 minutes before we had the first announcement come around, which was frankly astounding. The gate announcer said - "We have a spare aircraft ready to go, we also have a pilot and copilot but we are unable to locate the flight attendants and are waiting for their arrival". I honestly thought it was a joke, until I realized it was not. 
 
@@ -33,7 +33,7 @@ After about 2.5 - 3 hours of waiting, the gate attendant abruptly announces the 
 
 Whatever, the reason for the delay, if American had been upfront and honest about it, it would be orders of magnitude better in terms of customer experience. If the flight was canceled for reasons of inclement weather, no one can blame them for it! However, it is the lack of transparency that bothered me and most others. Once the flight was canceled, the complete lack of connection, pun intended, and empathy, quickly washed off any little respect I had for this carrier. 
 
-To be honest, this is my first canceled airline, and I guess I am lucky for that, which is why I did not understand the Usain Bolt-like sprinters that ran towards Customer Service. I thought it was to voice grievance with the airline, but I soon realized it was to rebook their flights which had not even occured to me in the 1 minute that had elapsed since I was told the flight was canceled. This resulted in me being pretty far back in a line of a planeful of people seeking recompense and readjustment of their flight booking schedule. As I saw the line creep ahead at a snails pace and listen to the people around me grumble about how they will get AA to give them a voucher and ask them about which flight they can get on next, I got my next and last learning, yet, for the day-
+To be honest, this is my first canceled airline, and I guess I am lucky for that, which is why I did not understand the Usain Bolt-like sprinters that ran towards Customer Service. I thought it was to voice grievance with the airline, but I soon realized it was to rebook their flights which had not even occurred to me in the 1 minute that had elapsed since I was told the flight was canceled. This resulted in me being pretty far back in a line of a planeful of people seeking recompense and readjustment of their flight booking schedule. As I saw the line creep ahead at a snails pace and listen to the people around me grumble about how they will get AA to give them a voucher and ask them about which flight they can get on next, I got my next and last learning, yet, for the day-
 
 > **If you don't hustle, you will not get the success you seek. As a company, embrace all forms of tech to provide touchpoints with your customers. As a customer, and in life, you have to stay hungry and in touch with the most effective means of obtaining information, to maintain a competitive edge. Work smart over work hard.**
 
