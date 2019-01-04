@@ -2,7 +2,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { StaticQuery, graphql, Link } from 'gatsby';
+import { StaticQuery, graphql } from 'gatsby';
 import styled, { ThemeProvider, createGlobalStyle } from 'styled-components';
 import { SEO, Header } from 'components';
 import theme from '../../config/Theme';
@@ -70,54 +70,23 @@ const Footer = styled.footer`
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
-    query SiteQuery {
-      site {
-        siteMetadata {
-          menuLinks {
-            name
-            link
+      query SiteQuery {
+        site {
+          siteMetadata {
+            menuLinks {
+              name
+              link
+            }
           }
         }
       }
-    }
     `}
     render={data => (
       <ThemeProvider theme={theme}>
         <React.Fragment>
           <SEO />
           <GlobalStyle />
-          <Header>
-            <div>
-              &nbsp;{' '}
-              <Link title="Home" to="/">
-                🏡
-              </Link>
-              &nbsp; |{' '}
-              <Link title="Projects" to="/projects/">
-                📚
-              </Link>
-            </div>
-            &nbsp;{' '}
-            <a title="Github" href="https://github.com/arjunrao87/">
-              Github
-            </a>
-            &nbsp;|{' '}
-            <a title="Twitter" href="https://mobile.twitter.com/raoarjun/">
-              Twitter
-            </a>
-            &nbsp; |{' '}
-            <a title="LinkedIn" href="https://linkedin.com/in/arjunrao87/">
-              LinkedIn
-            </a>
-            &nbsp; |{' '}
-            <a title="Medium" href="https://medium.com/@arjunrao87/">
-              Medium
-            </a>
-            &nbsp; |{' '}
-            <a title="Instagram" href="https://instagram.com/raoarjun/">
-              Instagram
-            </a>
-          </Header>
+          <Header />
           {children}
           <Footer>
             &copy; 2018 - Arjun Rao <br />
