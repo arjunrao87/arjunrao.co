@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://arjunrao.netlify.com/* http://www.arjunrao.co/:splat 301!
