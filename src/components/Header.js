@@ -23,7 +23,9 @@ const Header = () => (
       </a>
     </LeftContent>
     <LeftContent>
-      Personal writings of <a href="https://mobile.twitter.com/raoarjun/">Arjun Rao</a>
+      <b>
+        Personal writings of <a href="https://mobile.twitter.com/raoarjun/">Arjun Rao</a>
+      </b>
     </LeftContent>
     <br />
   </Wrapper>
