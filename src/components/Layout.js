@@ -89,6 +89,31 @@ const Layout = ({ children }) => (
           <Header />
           {children}
           <Footer>
+            <a title="Home" href="/">
+              Home
+            </a>
+            &nbsp;|{' '}
+            <a title="Github" href="https://github.com/arjunrao87/">
+              Github
+            </a>
+            &nbsp;|{' '}
+            <a title="Twitter" href="https://mobile.twitter.com/raoarjun/">
+              Twitter
+            </a>
+            &nbsp; |{' '}
+            <a title="LinkedIn" href="https://linkedin.com/in/arjunrao87/">
+              LinkedIn
+            </a>
+            &nbsp; |{' '}
+            <a title="Medium" href="https://medium.com/@arjunrao87/">
+              Medium
+            </a>
+            &nbsp; |{' '}
+            <a title="Instagram" href="https://instagram.com/raoarjun/">
+              Instagram
+            </a>
+            <br />
+            <br />
             &copy; 2018 - Arjun Rao <br />
           </Footer>
         </React.Fragment>
