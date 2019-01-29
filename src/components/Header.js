@@ -24,7 +24,10 @@ const Header = () => (
     </LeftContent>
     <LeftContent>
       <b>
-        Personal writings of <a href="https://mobile.twitter.com/raoarjun/">Arjun Rao</a>
+        Personal writings of{' '}
+        <a href="https://mobile.twitter.com/raoarjun/">
+          <u>Arjun Rao</u>
+        </a>
       </b>
     </LeftContent>
     <br />
