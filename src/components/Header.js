@@ -1,7 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { withPrefix } from 'gatsby';
+import { media } from '../utils/media';
 
 const Wrapper = styled.header`
   grid-column: 1 / -1;
@@ -15,11 +15,20 @@ const LeftContent = styled.div`
   margin: 0 auto;
   text-align: center;
 `;
+
+const NavBarIcon = styled.img`
+  width: 5%;
+  src: ${withPrefix('/social/logo.png')};
+  @media ${media.phone} {
+    width: 12%;
+  }
+`;
+
 const Header = () => (
   <Wrapper>
     <LeftContent>
       <a title="Home" href="/">
-        <img width="5%" src={withPrefix('/social/logo.png')} alt="Home" />
+        <NavBarIcon src={withPrefix('/social/logo.png')} alt="Home" />
       </a>
     </LeftContent>
     <LeftContent>

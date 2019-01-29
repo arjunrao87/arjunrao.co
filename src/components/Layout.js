@@ -4,7 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 import styled, { ThemeProvider, createGlobalStyle } from 'styled-components';
-import { SEO, Header } from 'components';
+import { SEO } from 'components';
 import theme from '../../config/Theme';
 import { media } from '../utils/media';
 
@@ -62,7 +62,7 @@ const GlobalStyle = createGlobalStyle`
 
 const Footer = styled.footer`
   text-align: center;
-  padding: 3rem 0;
+  margin-top: 1rem;
   span {
     font-size: 0.75rem;
   }
@@ -86,7 +86,6 @@ const Layout = ({ children }) => (
         <React.Fragment>
           <SEO />
           <GlobalStyle />
-          <Header />
           {children}
           <Footer>
             <a title="Home" href="/">

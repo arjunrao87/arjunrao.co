@@ -2,21 +2,21 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
-import { Layout, Article, Wrapper } from 'components';
+import { Layout, Article, Wrapper, Header } from 'components';
 import { media } from '../utils/media';
 
 const Content = styled.div`
   grid-column: 2;
   max-width: 1000px;
   border-radius: 1rem;
-  padding: 0rem 10rem;
+  padding: 3rem 3rem;
   z-index: 9000;
   margin-top: -5rem;
   @media ${media.tablet} {
     padding: 3rem 3rem;
   }
   @media ${media.phone} {
-    padding: 2rem 1.5rem;
+    padding: 3rem 3rem;
   }
 `;
 
@@ -26,6 +26,7 @@ const IndexPage = ({
   },
 }) => (
   <Layout>
+    <Header />
     <Wrapper>
       <Content>
         {postEdges.map(post => (

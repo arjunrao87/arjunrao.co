@@ -2,8 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
-import kebabCase from 'lodash/kebabCase';
-import { Subline } from 'components';
 
 const Post = styled.article`
   display: flex;

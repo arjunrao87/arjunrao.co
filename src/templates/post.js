@@ -17,7 +17,7 @@ const Content = styled.article`
   padding: 2rem 4rem;
   background-color: ${props => props.theme.colors.bg};
   z-index: 9000;
-  margin-top: -12rem;
+  margin-top: -6rem;
   @media ${media.tablet} {
     padding: 3rem 3rem;
   }
@@ -28,6 +28,12 @@ const Content = styled.article`
 
 const Title = styled.h1`
   margin-bottom: 1rem;
+  @media ${media.phone} {
+    font-size: 34px;
+  }
+  @media ${media.tablet} {
+    font-size: 34px;
+  }
 `;
 
 const PostContent = styled.div`
@@ -48,8 +54,7 @@ const Post = ({ pageContext: { slug, prev, next }, data: { markdownRemark: postN
         <Content>
           <Title>{post.title}</Title>
           <Subline>
-            {post.date} &mdash; {postNode.timeToRead} min read &mdash; Category:{' '}
-            <Link to={`/categories/${kebabCase(post.category)}`}>{post.category}</Link>
+            Category: <Link to={`/categories/${kebabCase(post.category)}`}>{post.category}</Link>
           </Subline>
           <PostContent dangerouslySetInnerHTML={{ __html: postNode.html }} />
           <PrevNext prev={prev} next={next} />

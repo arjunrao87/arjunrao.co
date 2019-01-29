@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 
 const Wrapper = styled.div`
   display: flex;
-  margin: 6rem auto 0 auto;
+  margin: 2.5rem auto 0 auto;
   a {
     color: ${props => props.theme.colors.grey.dark};
     display: flex;
