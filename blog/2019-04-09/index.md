@@ -1,11 +1,11 @@
 ---
 date: "2019-04-09"
 year: "2019"
-title: "Work wisdom"
+title: "Of Observations and Opinions"
 category: "Philosophy"
 ---
 
-50 (for now!) principles, about life and work in general, that I wanted to codify.
+50 (for now!) principles, about life and work in general, that I have said to myself in the past, and wanted to codify.
 
 - Never underestimate the importance of the people around you, and the impact you have on them 
 - If you fight the good fight and you fight it for the right reasons, people will appreciate you for who you are
