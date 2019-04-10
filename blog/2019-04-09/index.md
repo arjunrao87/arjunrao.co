@@ -1,7 +1,7 @@
 ---
 date: "2019-04-09"
 year: "2019"
-title: "Of Observations and Opinions"
+title: "Observations and opinions on navigating work and life"
 category: "Philosophy"
 ---
 
