@@ -1,7 +1,7 @@
 ---
 date: "2019-04-12"
 year: "2019"
-title: "Good night and Good luck 🙏🏽"
+title: "A New Dawn 🌅"
 category: "Personal Growth"
 ---
 
