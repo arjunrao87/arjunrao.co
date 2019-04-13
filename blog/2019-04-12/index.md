@@ -2,7 +2,7 @@
 date: "2019-04-09"
 year: "2019"
 title: "Good night and Good luck 🙏🏽"
-category: "Philosophy"
+category: "Personal Growth"
 ---
 
 I left BlackRock after just over 7.5 years of working there. It was my first job out of school and was extremely formative in the kind of person I became. The latter can  be attributed to both, the trials-by-fire I underwent as well as the people I interacted with over the entire duration. 
