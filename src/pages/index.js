@@ -1,10 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 import styled from 'styled-components';
 import { Layout, Article, Wrapper, Header } from 'components';
 import { media } from '../utils/media';
-import config from '../../config/SiteConfig';
 
 const Content = styled.div`
   grid-column: 2;
@@ -28,9 +27,7 @@ const IndexPage = ({
 }) => (
   <Layout>
     <Wrapper>
-      <Header>
-        <Link to="/">{config.siteTitle}</Link>
-      </Header>
+      <Header/>
       <Content>
         {postEdges.map(post => (
           <Article
