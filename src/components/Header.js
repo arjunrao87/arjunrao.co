@@ -1,7 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { withPrefix } from 'gatsby';
-import { media } from '../utils/media';
 
 const Wrapper = styled.header`
   grid-column: 1 / -1;
@@ -10,36 +8,46 @@ const Wrapper = styled.header`
   padding: 2rem 2rem 1.5rem 2rem;
 `;
 
-const LeftContent = styled.div`
+const CenterContent = styled.div`
   max-width: 1000px;
   margin: 0 auto;
   text-align: center;
 `;
 
-const NavBarIcon = styled.img`
-  width: 5%;
-  src: ${withPrefix('/social/logo.png')};
-  @media ${media.phone} {
-    width: 12%;
-  }
-`;
+const Links = styled.div`
+  text-align:center;
+`
 
 const Header = () => (
   <Wrapper>
-    <LeftContent>
+    <CenterContent>
       <a title="Home" href="/">
-        <NavBarIcon src={withPrefix('/social/logo.png')} alt="Home" />
+        <h1>Arjun Rao</h1>
       </a>
-    </LeftContent>
-    <LeftContent>
-      <b>
-        Personal writings of{' '}
-        <a href="https://mobile.twitter.com/raoarjun/">
-          <u>Arjun Rao</u>
-        </a>
-      </b>
-    </LeftContent>
-    <br />
+    </CenterContent>
+    <Links>
+      <a href="https://github.com/arjunrao87/">
+        <span><strong><u>Github</u></strong></span>
+      </a>
+      &nbsp;
+      |
+      &nbsp;
+      <a href="https://mobile.twitter.com/raoarjun/">
+        <span><strong><u>Twitter</u></strong></span>
+      </a>
+      &nbsp;
+      |
+      &nbsp;
+      <a href="https://linkedin.com/in/arjunrao87/">
+        <span><strong><u>LinkedIn</u></strong></span>
+      </a>
+      &nbsp;
+      |
+      &nbsp;
+      <a href="https://instagram.com/raoarjun/">
+        <span><strong><u>Instagram</u></strong></span>
+      </a>
+    </Links>
   </Wrapper>
 );
 
